@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+  
+
+button {
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: gainsboro;
+}
+
+
+.card {
+    width: 400px;
+    margin: auto auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.show {
+    text-align: right;
+    font-size: 2rem;
+    height: 50px;
+}
+
+.result {
+    height: 50px;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #abb2bb;
+}
+
+.remove {
+    grid-column: 4;
+    color: #0EB651;
+}
+
+.clear {
+    grid-column: 1;
+    color: #FF7A00;
+}
+
+.division {
+    grid-column: 4;
+    color: #0EB651;
+    font-size: 2rem;
+}
+
+.addition {
+    color: #0EB651;;
+    font-size: 2rem;
+}
+
+.subtraction {
+    color: #0EB651;
+    font-size: 2rem;
+}
+
+.multiplication {
+    color: #0EB651;
+    font-size: 2rem;
+}
+
+
+.zero {
+    grid-column: 2;
+}
+
+.submit {
+    grid-column: 4;
+    background-color: #0EB651;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.submit:hover {
+    background-color: #0A6930;
+}
